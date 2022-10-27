@@ -36,5 +36,26 @@ namespace YP7_Cherednichenko402
             Environment.Exit(0);
         }
 
+        private void b101_Click(object sender, RoutedEventArgs e)
+        {
+            string a = "";
+
+            if (rb11.IsChecked == true || rb12.IsChecked == true)
+            {
+                a = a + tb11.Text + Environment.NewLine;
+            }
+
+            if (rb22.IsChecked == true || rb23.IsChecked == true)
+            {
+                a = a + tb21.Text + Environment.NewLine;
+            }
+            
+            
+
+            if (a=="")
+                MessageBox.Show("Вы ответили все правильно :)", "Вопросы, на которые вы ответили неверно:");
+            else 
+            MessageBox.Show(a,"Вопросы, на которые вы ответили неверно:");
+        }
     }
 }
