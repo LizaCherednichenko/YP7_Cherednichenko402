@@ -7,18 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="310.183" Width="572.063">
     <Grid>
-        <TabControl>
+        <TabControl x:Name="tabcontrol">
             <TabItem x:Name="n1">
                 <TabItem.Header>1</TabItem.Header>
                 <TabItem.Content>
-                    <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Вопрос 1: "/>
                         <RadioButton x:Name="rb11">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb12">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb13">Ответ 3</RadioButton>
-                        <DockPanel VerticalAlignment="Bottom" Height="100">
-                            <Button x:Name="b11" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b12" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                        <DockPanel VerticalAlignment="Bottom">
+                            <Button x:Name="b11" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b12" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </DockPanel>
                     </StackPanel>
                 </TabItem.Content>
@@ -28,13 +28,13 @@
                 <TabItem.Header>2</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 2: "/>
                         <RadioButton x:Name="rb21">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb22">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb23">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b21" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b22" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b21" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b22" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -44,13 +44,13 @@
                 <TabItem.Header>3</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 3: "/>
                         <RadioButton x:Name="rb31">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb32">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb33">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b31" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b32" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b31" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b32" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -60,13 +60,13 @@
                 <TabItem.Header>4</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 4: "/>
                         <RadioButton x:Name="rb41">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb42">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb43">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b41" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b42" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b41" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b42" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -76,13 +76,13 @@
                 <TabItem.Header>5</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 5: "/>
                         <RadioButton x:Name="rb51">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb52">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb53">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b51" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b52" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b51" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b52" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -92,13 +92,13 @@
                 <TabItem.Header>6</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 6: "/>
                         <RadioButton x:Name="rb61">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb62">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb63">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b61" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b62" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b61" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b62" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -107,14 +107,14 @@
             <TabItem x:Name="n7">
                 <TabItem.Header>7</TabItem.Header>
                 <TabItem.Content>
-                    <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                    <StackPanel> 
+                        <TextBlock Text="Вопрос 7: "/>
                         <RadioButton x:Name="rb71">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb72">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb73">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b71" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b72" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b71" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b72" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -124,13 +124,13 @@
                 <TabItem.Header>8</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 8: "/>
                         <RadioButton x:Name="rb81">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb82">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb83">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b81" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b82" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b81" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b82" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -140,13 +140,13 @@
                 <TabItem.Header>9</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 9: "/>
                         <RadioButton x:Name="rb91">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb92">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb93">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b91" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b92" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b91" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
+                            <Button x:Name="b92" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
@@ -156,13 +156,13 @@
                 <TabItem.Header>10</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock Text="Вопрос"/>
+                        <TextBlock Text="Вопрос 10: "/>
                         <RadioButton x:Name="rb101">Ответ 1</RadioButton>
                         <RadioButton x:Name="rb102">Ответ 2</RadioButton>
                         <RadioButton x:Name="rb103">Ответ 3</RadioButton>
                         <Grid>
-                            <Button x:Name="b101" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
-                            <Button x:Name="b102" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200"/>
+                            <Button x:Name="b101" Content="Готово" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200"/>
+                            <Button x:Name="b102" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>

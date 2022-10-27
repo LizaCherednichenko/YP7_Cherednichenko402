@@ -24,5 +24,17 @@ namespace YP7_Cherednichenko402
         {
             InitializeComponent();
         }
+
+        private void b11_Click(object sender, RoutedEventArgs e)
+        {
+            if (tabcontrol.SelectedIndex < tabcontrol.Items.Count)
+                tabcontrol.SelectedIndex++;
+        }
+
+        private void b12_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
     }
 }
