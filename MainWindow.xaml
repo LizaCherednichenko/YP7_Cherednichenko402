@@ -12,10 +12,10 @@
                 <TabItem.Header>1</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical">
-                        <TextBlock x:Name="tb11" Text="Вопрос 1: "/>
-                        <RadioButton x:Name="rb11">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb12">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb13">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb11" Text="Вопрос 1: Что из перечисленного не относится к программным средствам?"/>
+                        <RadioButton x:Name="rb11">Драйвер</RadioButton>
+                        <RadioButton x:Name="rb12">Графический редактор</RadioButton>
+                        <RadioButton x:Name="rb13">Процессор</RadioButton>
                         <DockPanel VerticalAlignment="Bottom">
                             <Button x:Name="b11" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b12" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -28,10 +28,10 @@
                 <TabItem.Header>2</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb21" Text="Вопрос 2: "/>
-                        <RadioButton x:Name="rb21">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb22">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb23">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb21" Text="Вопрос 2: Какие системы счисления не используются специалистами для общения с ЭВМ?"/>
+                        <RadioButton x:Name="rb21">Троичная</RadioButton>
+                        <RadioButton x:Name="rb22">Двоичная</RadioButton>
+                        <RadioButton x:Name="rb23">Шестнадцатеричная</RadioButton>
                         <Grid>
                             <Button x:Name="b21" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b22" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -44,10 +44,10 @@
                 <TabItem.Header>3</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb31" Text="Вопрос 3: "/>
-                        <RadioButton x:Name="rb31">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb32">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb33">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb31" Text="Вопрос 3: Разветвляющийся алгоритм — это:"/>
+                        <RadioButton x:Name="rb31">Присутствие в алгоритме хотя бы одного условия</RadioButton>
+                        <RadioButton x:Name="rb32">Набор команд, которые выполняются последо-; вательно друг за другом</RadioButton>
+                        <RadioButton x:Name="rb33">Многократное исполнение одних и тех же действий</RadioButton>
                         <Grid>
                             <Button x:Name="b31" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b32" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -60,10 +60,10 @@
                 <TabItem.Header>4</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb41" Text="Вопрос 4: "/>
-                        <RadioButton x:Name="rb41">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb42">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb43">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb41" Text="Вопрос 4: Основным элементом электронных таблиц является:"/>
+                        <RadioButton x:Name="rb41">Столбец</RadioButton>
+                        <RadioButton x:Name="rb42">Ячейка</RadioButton>
+                        <RadioButton x:Name="rb43">Строка</RadioButton>
                         <Grid>
                             <Button x:Name="b41" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b42" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -76,10 +76,10 @@
                 <TabItem.Header>5</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb51" Text="Вопрос 5: "/>
-                        <RadioButton x:Name="rb51">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb52">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb53">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb51" Text="Вопрос 5: Свойство алгоритма — дискретность — обозначает:"/>
+                        <RadioButton x:Name="rb51">Строгое движение как вверх, так и вниз</RadioButton>
+                        <RadioButton x:Name="rb52">Что команды должны следовать последовательно друг за другом</RadioButton>
+                        <RadioButton x:Name="rb53">Разбиение алгоритма на конечное число простых шагов</RadioButton>
                         <Grid>
                             <Button x:Name="b51" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b52" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -92,10 +92,10 @@
                 <TabItem.Header>6</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb61" Text="Вопрос 6: "/>
-                        <RadioButton x:Name="rb61">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb62">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb63">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb61" Text="Вопрос 6: Все системы счисления делятся на две группы:"/>
+                        <RadioButton x:Name="rb61">Целые и дробные</RadioButton>
+                        <RadioButton x:Name="rb62">Позиционные и непозиционные</RadioButton>
+                        <RadioButton x:Name="rb63">Двоичные и десятичные</RadioButton>
                         <Grid>
                             <Button x:Name="b61" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b62" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -108,10 +108,10 @@
                 <TabItem.Header>7</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb71" Text="Вопрос 7: "/>
-                        <RadioButton x:Name="rb71">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb72">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb73">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb71" Text="Вопрос 7: Что называется основанием системы счисления?"/>
+                        <RadioButton x:Name="rb71">Сумма всех цифр системы счисления</RadioButton>
+                        <RadioButton x:Name="rb72">Отношение значений единиц соседних разрядов</RadioButton>
+                        <RadioButton x:Name="rb73">Количество цифр, используемых для записи чисел</RadioButton>
                         <Grid>
                             <Button x:Name="b71" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b72" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -124,10 +124,10 @@
                 <TabItem.Header>8</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb81" Text="Вопрос 8: "/>
-                        <RadioButton x:Name="rb81">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb82">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb83">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb81" Text="Вопрос 8: Необходимым компонентом операционной системы является:"/>
+                        <RadioButton x:Name="rb81">Командный процессор</RadioButton>
+                        <RadioButton x:Name="rb82">Центральный процессор</RadioButton>
+                        <RadioButton x:Name="rb83">Оперативная память</RadioButton>
                         <Grid>
                             <Button x:Name="b81" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b82" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -140,10 +140,10 @@
                 <TabItem.Header>9</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb91" Text="Вопрос 9: "/>
-                        <RadioButton x:Name="rb91">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb92">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb93">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb91" Text="Вопрос 9: Файлом называется:"/>
+                        <RadioButton x:Name="rb91">Набор данных для решения задачи</RadioButton>
+                        <RadioButton x:Name="rb92">Программа на языке программирования для решения задачи</RadioButton>
+                        <RadioButton x:Name="rb93">Поименованная область на диске или другом машинном носителе</RadioButton>
                         <Grid>
                             <Button x:Name="b91" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b92" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
@@ -156,10 +156,10 @@
                 <TabItem.Header>10</TabItem.Header>
                 <TabItem.Content>
                     <StackPanel>
-                        <TextBlock x:Name="tb101" Text="Вопрос 10: "/>
-                        <RadioButton x:Name="rb101">Ответ 1</RadioButton>
-                        <RadioButton x:Name="rb102">Ответ 2</RadioButton>
-                        <RadioButton x:Name="rb103">Ответ 3</RadioButton>
+                        <TextBlock x:Name="tb101" Text="Вопрос 10: К устройствам накопления информации относится:"/>
+                        <RadioButton x:Name="rb101">ВЗУ</RadioButton>
+                        <RadioButton x:Name="rb102">ПЗУ</RadioButton>
+                        <RadioButton x:Name="rb103">Процессор</RadioButton>
                         <Grid>
                             <Button x:Name="b101" Content="Готово" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b101_Click"/>
                             <Button x:Name="b102" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
