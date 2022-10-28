@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YP7_Cherednichenko402"
         mc:Ignorable="d"
-        Title="MainWindow" Height="310.183" Width="572.063">
+        Title="Тест по информатике" Height="278" Width="573" MinHeight="278" MinWidth="573">
     <Grid>
-        <TabControl x:Name="tabcontrol">
+        <TabControl x:Name="tabcontrol" Background="#FFE2E2E2">
             <TabItem x:Name="n1">
                 <TabItem.Header>1</TabItem.Header>
                 <TabItem.Content>
@@ -16,10 +16,10 @@
                         <RadioButton x:Name="rb11">Драйвер</RadioButton>
                         <RadioButton x:Name="rb12">Графический редактор</RadioButton>
                         <RadioButton x:Name="rb13">Процессор</RadioButton>
-                        <DockPanel VerticalAlignment="Bottom">
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b11" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b12" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
-                        </DockPanel>
+                        </Grid>
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
@@ -32,7 +32,7 @@
                         <RadioButton x:Name="rb21">Троичная</RadioButton>
                         <RadioButton x:Name="rb22">Двоичная</RadioButton>
                         <RadioButton x:Name="rb23">Шестнадцатеричная</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b21" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b22" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -48,7 +48,7 @@
                         <RadioButton x:Name="rb31">Присутствие в алгоритме хотя бы одного условия</RadioButton>
                         <RadioButton x:Name="rb32">Набор команд, которые выполняются последо-; вательно друг за другом</RadioButton>
                         <RadioButton x:Name="rb33">Многократное исполнение одних и тех же действий</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b31" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b32" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -64,7 +64,7 @@
                         <RadioButton x:Name="rb41">Столбец</RadioButton>
                         <RadioButton x:Name="rb42">Ячейка</RadioButton>
                         <RadioButton x:Name="rb43">Строка</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b41" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b42" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -80,7 +80,7 @@
                         <RadioButton x:Name="rb51">Строгое движение как вверх, так и вниз</RadioButton>
                         <RadioButton x:Name="rb52">Что команды должны следовать последовательно друг за другом</RadioButton>
                         <RadioButton x:Name="rb53">Разбиение алгоритма на конечное число простых шагов</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b51" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b52" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -96,7 +96,7 @@
                         <RadioButton x:Name="rb61">Целые и дробные</RadioButton>
                         <RadioButton x:Name="rb62">Позиционные и непозиционные</RadioButton>
                         <RadioButton x:Name="rb63">Двоичные и десятичные</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b61" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b62" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -112,7 +112,7 @@
                         <RadioButton x:Name="rb71">Сумма всех цифр системы счисления</RadioButton>
                         <RadioButton x:Name="rb72">Отношение значений единиц соседних разрядов</RadioButton>
                         <RadioButton x:Name="rb73">Количество цифр, используемых для записи чисел</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b71" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b72" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -128,7 +128,7 @@
                         <RadioButton x:Name="rb81">Командный процессор</RadioButton>
                         <RadioButton x:Name="rb82">Центральный процессор</RadioButton>
                         <RadioButton x:Name="rb83">Оперативная память</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b81" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b82" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -144,7 +144,7 @@
                         <RadioButton x:Name="rb91">Набор данных для решения задачи</RadioButton>
                         <RadioButton x:Name="rb92">Программа на языке программирования для решения задачи</RadioButton>
                         <RadioButton x:Name="rb93">Поименованная область на диске или другом машинном носителе</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b91" Content="Следующий вопрос" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b11_Click"/>
                             <Button x:Name="b92" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
@@ -160,14 +160,27 @@
                         <RadioButton x:Name="rb101">ВЗУ</RadioButton>
                         <RadioButton x:Name="rb102">ПЗУ</RadioButton>
                         <RadioButton x:Name="rb103">Процессор</RadioButton>
-                        <Grid>
+                        <Grid Margin="0,110,0,0">
                             <Button x:Name="b101" Content="Готово" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="b101_Click"/>
                             <Button x:Name="b102" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
                         </Grid>
                     </StackPanel>
                 </TabItem.Content>
             </TabItem>
-            
+
+            <TabItem x:Name="itog" Visibility="Hidden">
+                <TabItem.Content>
+                    <StackPanel>
+                        <TextBlock Text="Тестирование завершено"/>
+                        <TextBlock x:Name="itog1"/>
+                        <TextBlock x:Name="itog2"/>
+                        <Grid Margin="0,120,0,0">
+                            <Button x:Name="itogB1" Content="Начать тестирование сначала" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Width="200" Click="itogB1_Click"/>
+                            <Button x:Name="itogB2" Content="Выход" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Width="200" Click="b12_Click"/>
+                        </Grid>
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

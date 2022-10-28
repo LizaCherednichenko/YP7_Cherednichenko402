@@ -39,6 +39,7 @@ namespace YP7_Cherednichenko402
         private void b101_Click(object sender, RoutedEventArgs e)
         {
             string a = "";
+
             //неправильные ответы на вопросы
             //на 1 вопрос (правильно 3)
             if (rb11.IsChecked == true || rb12.IsChecked == true)
@@ -114,16 +115,61 @@ namespace YP7_Cherednichenko402
             if (rb101.IsChecked == false && rb102.IsChecked == false && rb103.IsChecked == false)
                 x = x + "Вопрос 10" + Environment.NewLine;
 
-            if (x!="")
-            MessageBox.Show("Вы не ответили вопросы:" + Environment.NewLine + x);
+            if (x != "")
+            {
+                MessageBox.Show("Вы не ответили вопросы:" + Environment.NewLine + x);
+            }
 
-
-
-
-            else if (a=="")
+            else if (a == "")
                 MessageBox.Show("Вы ответили правильно на все вопросы!! :)", "Тестирование завершено");
-            else 
-            MessageBox.Show("Вопросы, на которые вы ответили неверно:" + Environment.NewLine + a,"Тестирование завершено");
+            else
+                MessageBox.Show("Вопросы, на которые вы ответили неверно:" + Environment.NewLine + a, "Тестирование завершено");
+
+
+            float c = 0;
+            //подсчет правильных ответов
+            if (rb13.IsChecked == true)
+                c = c + 1;
+            if (rb21.IsChecked == true)
+                c = c + 1;
+            if (rb31.IsChecked == true)
+                c = c + 1;
+            if (rb42.IsChecked == true)
+                c = c + 1;
+            if (rb53.IsChecked == true)
+                c = c + 1;
+            if (rb62.IsChecked == true)
+                c = c + 1;
+            if (rb72.IsChecked == true)
+                c = c + 1;
+            if (rb81.IsChecked == true)
+                c = c + 1;
+            if (rb93.IsChecked == true)
+                c = c + 1;
+            if (rb101.IsChecked == true)
+                c = c + 1;
+
+            //расчет оценки
+            float i = 0;
+            i = c / 2;
+            if (i < 2)
+                i = 2;
+
+            if (x == "")
+                tabcontrol.SelectedIndex++;
+            itog1.Text = "Правильных ответов: " + c;
+            itog2.Text = "Оценка в пятибальной системе: " + i;
+
         }
+
+
+
+        private void itogB1_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            Application.Current.Shutdown();
+        }
+
+
     }
 }
